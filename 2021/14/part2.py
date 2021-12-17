@@ -24,7 +24,6 @@ with open("input.txt") as pol:
         if string in depth_breakdown and inserts in depth_breakdown[string]:
             return depth_breakdown[string][inserts]
 
-        #sub_str = string[position:position+2]
         insert = rules[string]
 
         string1 = string[0] + insert
